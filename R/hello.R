@@ -30,7 +30,7 @@ hello.shiny <- function() {
       mainPanel(
         plotOutput("distPlot"),
         div(
-          img(src = system.file("www/img/helloworld.jpg", package="imageissue"))
+          img(src = "img/helloworld.jpg")
         )
       )
     )
